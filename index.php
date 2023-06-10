@@ -3,6 +3,10 @@ $car = 'Malibu';
 
 $foods = ['Norin', 'Honim', 'Manti'];
 
+include 'variables.php';
+//
+//echo $name;
+//echo $surname;
 ?>
 
 <!--<!DOCTYPE html>-->
@@ -34,7 +38,7 @@ $foods = ['Norin', 'Honim', 'Manti'];
 <!--</html>-->
 
 
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -53,9 +57,15 @@ $foods = ['Norin', 'Honim', 'Manti'];
   <input type="text" name="surname">
  </div>
  <button type="submit">Enter</button>
-</form>
+</form>-->
+
+<--=============================================-->-->
+
+<?php require Header.php?>;
+
+<h1>Hello world</h1>
 
 
+<?php require Footer.php?>
 
-</body>
-</html>
+
