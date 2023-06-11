@@ -69,25 +69,38 @@ include 'variables.php';
 <?php //require Footer.php?>
 
 <?php
-//
+//data===============
 //echo date('Y/m/d-l ');
 //echo date('H:i:s');
 //?>
 
 <?php
-//Cookies
+//Cookies=================
 
 
     setcookie('test', 'Bu_uning_qiymati');
     setcookie('userName', 'Hojiakbar');
 
-// Session
+// Session=================
 
-session_start()
+//session_start()
 
+
+//filters=================
+$str = "<h1>Hello world</h1>>";
+$int = 100;
+
+
+if(!filter_var($int, FILTER_VALIDATE_INT)===false){
+    echo ("Integer to'g'ri");
+}else {
+    echo ("Noto'g'ri");
+}
+
+// <h1>user: <?php echo $_COOKIE['userName']?></h1>
     ?>
 
-<h1>user: <?php echo $_COOKIE['userName']?></h1>
+
 
 
 
