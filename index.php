@@ -87,18 +87,21 @@ include 'variables.php';
 
 
 //filters=================
-$str = "<h1>Hello world</h1>>";
-$int = 100;
+//$str = "<h1>Hello world</h1>>";
+//$int = 100;
+//
+//
+//if(!filter_var($int, FILTER_VALIDATE_INT)===false){
+//    echo ("Integer to'g'ri");
+//}else {
+//    echo ("Noto'g'ri");
+//}
+
+// <h1>user: <?php echo $_COOKIE['userName']</h1>
 
 
-if(!filter_var($int, FILTER_VALIDATE_INT)===false){
-    echo ("Integer to'g'ri");
-}else {
-    echo ("Noto'g'ri");
-}
+?>
 
-// <h1>user: <?php echo $_COOKIE['userName']?></h1>
-    ?>
 
 
 
