@@ -59,13 +59,33 @@ include 'variables.php';
  <button type="submit">Enter</button>
 </form>-->
 
-<--=============================================-->-->
+<!--<--=============================================-->
+<!---->
+<?php //require Header.php?><!--;-->
+<!---->
+<!--<h1>Hello world</h1>-->
+<!---->
+<!---->
+<?php //require Footer.php?>
 
-<?php require Header.php?>;
+<?php
+//
+//echo date('Y/m/d-l ');
+//echo date('H:i:s');
+//?>
 
-<h1>Hello world</h1>
+<?php
+//Cookies
+// Session
+
+    setcookie('test', 'Bu_uning_qiymati');
+    setcookie('userName', 'Hojiakbar');
+
+    ?>
+
+<h1>user: <?php echo $_COOKIE['userName']?></h1>
 
 
-<?php require Footer.php?>
+
 
 
