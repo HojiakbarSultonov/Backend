@@ -76,10 +76,14 @@ include 'variables.php';
 
 <?php
 //Cookies
-// Session
+
 
     setcookie('test', 'Bu_uning_qiymati');
     setcookie('userName', 'Hojiakbar');
+
+// Session
+
+session_start()
 
     ?>
 
